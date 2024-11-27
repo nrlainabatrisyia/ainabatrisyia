@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #dcdcdc;
+        }
+        .section {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        .section h2 {
+            color: #6b4f4f;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .section p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #6b4f4f;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Family</h1>
+    </div>
+    <div class="section">
+        <h2>Family Picture</h2>
+        <p>This is our family picture for Eid 2024!</p>
+        <img src="your-family-picture.jpg" alt="Family Picture">
+    </div>
+    <div class="section">
+        <h2>My Parents</h2>
+        <p>My dad is [Your Dad's Name], and he is [Age] years old.</p>
+        <p>My mom is [Your Mom's Name], and she is [Age] years old.</p>
+        <img src="your-parents-picture.jpg" alt="Parents Picture">
+    </div>
+    <div class="section">
+        <h2>My Siblings</h2>
+        <p>I have one little brother and one sister.</p>
+        <ul>
+            <li>My brother: [Brother's Name]</li>
+            <li>My sister: [Sister's Name]</li>
+        </ul>
+        <img src="your-siblings-picture.jpg" alt="Siblings Picture">
+    </div>
+    <div class="nav">
+        <a href="#header">Home</a>
+        <a href="#parents">Parents</a>
+        <a href="#siblings">Siblings</a>
+    </div>
+</body>
+</html>

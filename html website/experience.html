@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work Experience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background4.jpg'); 
+            background-size: cover; 
+            background-position: center center; 
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+            color: #fff; 
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(216, 93, 106, 0.8); 
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #D85D6A;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        .section {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: slideIn 1s forwards; 
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #D85D6A;
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .section img, .section video {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #D85D6A;
+            color: white;
+            margin-top: 40px;
+        }
+
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <h1>My Work Experience</h1>
+    </header>
+
+   
+    <div class="nav-links">
+        <a href="#subway">Subway 🥪</a>
+        <a href="#tealive">Tealive 🧋</a>
+        <a href="#mpkulim">Majlis Perbandaran Kulim 🏢</a>
+    </div>
+
+    
+    <div class="section" id="subway">
+        <h2>Subway 🥪</h2>
+        <p>I worked at Subway after completing my SPM. My role involved preparing sandwiches, managing the cash register, and providing excellent customer service. I left after working for a while to pursue my diploma studies. This experience helped me improve my communication and multitasking skills in a fast-paced environment.</p>
+        <img src="subway.jpg" alt="Subway">
+    </div>
+
+    
+    <div class="section" id="tealive">
+        <h2>Tealive </h2>
+        <p>I worked at Tealive during my semester breaks. As a barista, I prepared bubble tea and other drinks, managed customer orders, and maintained cleanliness in the shop. This role taught me teamwork, time management, and the importance of providing great customer service in a busy café environment.</p>
+        <video controls>
+            <source src="vidtealive.mov" type="video/mp4">
+        </video>
+    </div>
+
+    
+    <div class="section" id="mpkulim">
+        <h2>Majlis Perbandaran Kulim 🏢</h2>
+        <p>During my internship at Majlis Perbandaran Kulim, I was involved in administrative tasks such as data entry, filing, and assisting in customer services. This experience gave me valuable insights into government operations and helped me develop strong organizational and office skills.</p>
+        <img src="mpkk.jpg" alt="Majlis Perbandaran Kulim">
+    </div>
+
+    <footer>
+        <p>&copy; AinaBatrisyia 2024</p>
+    </footer>
+
+</body>
+</html>
